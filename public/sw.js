@@ -17,5 +17,5 @@ self.addEventListener("push", (e) => {
 self.addEventListener("notificationClick", (e) => {
   console.log("Notification clicked!");
   e.notification.close();
-  e.waitUntil(clients.openWindow("http://localhost:3000"));
+  e.waitUntil(clients.openWindow("https://localhost:3000"));
 });

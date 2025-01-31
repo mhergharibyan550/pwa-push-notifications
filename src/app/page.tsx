@@ -2,7 +2,7 @@
 
 import PushNotificationManager from "@/components/PushNotificationManager";
 
-export const Page = () => {
+const Page = () => {
   return (
     <div>
       <PushNotificationManager />
